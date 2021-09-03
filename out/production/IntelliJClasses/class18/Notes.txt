@@ -1,0 +1,36 @@
+Constructors:
+
+In java, a constructor is a block of codes similar to the method.
+
+It is called when an instance of the class/object is created, and memory is allocated for the object.
+It is a special type of method which is used to initialize the object.
+
+NOTE: if there is no constructor in a class, compiler automatically creates a default constructor.
+
+=====================================
+
+Class Constructors and "this" keyword
+Constructor is very similar to a method, methods mat or may not return something.
+but a constructor always never return anything not even void.
+1) we use constructors to give initial values to fields of class.
+2) constructors always have the same name as class name, while methods can have any name.
+how to write a constructor example below
+Person{
+String name;
+String address;
+int age;
+String country;
+
+Person(){
+sout"Inside the person class constructor  ,this code will be executed automatically
+when we create the object of the class"
+
+}
+Contructors help build/to initialize object.
+
+}
+
+we can have multiple constructor to ease the creation of object
+when we have multiple constructors java decides based on type and number of arguments that
+we are passing when we are creating an object, if we are passing three values, java will search for a
+constructor that takes 3 parameters and initialize your object with that constructor.

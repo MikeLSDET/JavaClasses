@@ -1,0 +1,64 @@
+Types of variables in Java
+There are 3 types of variables in Java
+ 1) local variables
+ 2) instance variables
+ 3) static variables
+ 1.Local variables:
+    Are those variables which are declared inside a block of code (method, constructor, loop,switch,etc);
+ Wherever you see curly brackets other than class it most likely a block of code.
+ When to use:
+    Always try to use local variables, because it only takes the memory from that block of code.
+    Because they occupy the memory for the shortest period of time by all variables.
+    As soon as block of code is executed, memory becomes free and can be used by other programs.
+    We cannot use static keyword with local variables.
+
+ 2. Instance variables:
+    Those variables which are outside of block of code but inside a class without static keyword are
+ called instance variables.
+ When to use:
+    when we know that from object to object we will be having different values, and we might
+ also need to share the variables between different instance methods of that class.
+ 3. Static variables:
+    Those instance variables that have static keyword with them are called static variables.
+    one single copy of variables is shared across all the objects.
+   When to use:
+   When we need to share something with all the objects.
+   They are mostly used as constance, but they can change values.
+
+   We can also have instance and static methods,but we can not use instance variables or instance methods directly
+   inside a static method. If we want to use them, we must create an object of that class.
+   For the instance methods we can freely use both types of methods and variables.
+
+   JAVA class 17
+   ========================================================
+   Access modification is done in java with the help of three keywords
+   1. "Private" 2. "protected" 3. "public" 4.(not actually a keyword) treated as "default" when not using a keyword
+   with fields. Methods default access is given to that field/method.
+
+   1.Private:
+    private is the most restricted one we can only access private fields or methods if we are
+    inside the same class. if something is private , can only be used in that class.
+
+
+
+     default access modifier:
+            This is not a keyword, if we don't specify any keyword with our fields or methods, default access is
+            applicable
+            to that member automatically
+             when default access is given to something that member is only accessible within the same class and
+             same package.
+
+
+    2. public access modifier:
+    public is least restricted one if a member is public we can access that member inside that class, outside of class,
+    and outside  that package as well, but not outside the project.
+
+
+    3. protected modifier:
+    it's a keyword, and it works a little different from other access modifiers.
+    if we are using a protected keyword we can access that member inside the same class  or same package
+    with/without creating an object
+    depends on if we are in a static or instance method but if we are in a different package
+    we cannot access it by creating an object, but we can access it directly inside the instance method of that
+    class but for that we have to write extends keyword
+    and the name of the class in which that variable/method is present,and then we can access it directly.

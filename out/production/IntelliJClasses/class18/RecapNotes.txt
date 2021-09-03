@@ -1,0 +1,21 @@
+Access modifiers:
+Keywords that determine the access of the members(fields/methods/constructors)
+There are four access levels, but only 3 access modifier keywords.
+
+**fields are variables with declare inside the class
+**methods are behaviors(actions)
+1.Private (most restricted), default( not keyword) 3. protected, 3. public
+1.private:
+    if we use the private keyword with the fields or methods, those fields and
+    methods are only accessible within the same class.
+2.default:
+   default is not a keyword if we don't specify any keyword with the fields/methods
+   then default access is automatically applied by java... that means that field or method
+   is accessible within the same class and within the same package.
+3.protected:
+    if we use the protected keyword that field/method is accessible within same
+    class and within same package... if we want to give access outside of same package with have to write extends
+    keyword and we can only access it without creating an object of that class.
+
+4. public:
+    public means accessible throughout project with or without creating an object of that class

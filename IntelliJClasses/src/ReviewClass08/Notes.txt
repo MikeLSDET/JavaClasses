@@ -1,0 +1,54 @@
+Access Modifiers in java:
+Access modifiers are keywords that determine the access of the
+method/fields/constructors(members of a class) and class for not but alter on you gus
+will learn about interfaces and some other concepts, they are also
+applicable to these concepts.
+Below are the keywords in java to control the access of members of a class.
+(most restrictive) private
+default(This is not a keyword)
+protected
+public
+
+private:
+    we can only access that member inside that specific class.
+Note:
+    1. we cannot have two public classes inside a .java file
+    2. There should be a public class with same name as of your file otherwise you will
+    get an error
+    3. we can have many classes inside a .java files but only one class can have a public access modifier.
+
+    Can i access a static method inside an instance method?
+    Yes i can access because static methods or field have same behaviour/values across
+    all the objects
+    can i acces an instance method inside static method
+    no we cant access instance methods directly without creating an object of that class.
+    =======================================
+
+    Private:
+    Means all the member having this access modifier can be accessed inside the same class
+    only
+    default access modifier
+    it's not a keyword, default access modifier is automatically applied when we don't mention an access
+    modifier keyword.
+    protected:
+    means all the members of a class are accessible within same class and package but if we need
+    to access them outside the package we need the to use "extends" keyword from that class but to access something
+    that needs an object we still can't access it.
+    public
+    Means all the members are accessible throughout the project.
+    Constructors:
+    Constructors are special block of code executed when we create the object of a class
+    by writing new keyword and name of class with parenthesis
+    we mainly use constructors to initialize the fields of an object but we can also put
+    some code that we want to execute everytime someone is creating the object of that class
+    Rules:
+    1. no return type, not even void
+    2. same name as class name
+    3.we can have constructors with and without parameters
+    4. constructors are not inherited
+    5. Constructors are automatically called when you create the object
+    6. we can overload constructors
+    7. we cannot use non access modifiers like static with constructors
+    8. we cannot override a constructor because they don't participate in inheritance
+    9. if we are not creating a constructor, java creates a default constructor(zero argument)
+    automatically.

@@ -1,0 +1,11 @@
+WAP how to reverse the string without using reverse method
+
+regex
+
+variables-
+
+instance variable -
+the variables which is defined inside the class but outside methods
+when we need to change the values object to object, and we have to share the values among multiple methods
+
+Constructor is a block of code that looks like a method and is named the same as the class name.

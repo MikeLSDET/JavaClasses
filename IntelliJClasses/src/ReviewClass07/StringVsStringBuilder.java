@@ -1,0 +1,21 @@
+package ReviewClass07;
+
+
+
+public class StringVsStringBuilder {
+
+    public static void main(String[] args) {
+
+        String name = "Alex";
+        String designation = "Test Lead";
+        String city = "Denver";
+
+        String name2 = "Mike";
+        String designation2 = "Manager";
+        String city2 = "Miami";
+
+        StringBuilder name3 = new StringBuilder("James");
+        StringBuilder designation3 = new StringBuilder("DM");
+        StringBuilder city3 = new StringBuilder("NewYork");
+    }
+}

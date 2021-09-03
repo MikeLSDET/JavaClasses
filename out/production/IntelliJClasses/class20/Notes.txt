@@ -1,0 +1,12 @@
+Inheritance:
+ Inheritance in java is a mechanism in which one object acquires all the properties
+and behaviors/methods of parent object.
+Inheritance represents the IS-A relationship,
+also known as parent-child relationship.
+
+types of levels based on numbers
+Single
+multiple * not supported in java, IMPORTANT INTERVIEW QUESTION*
+hierarchical
+
+multilevel

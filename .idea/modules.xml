@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FromEclipse/FromEclipse.iml" filepath="$PROJECT_DIR$/FromEclipse/FromEclipse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelliJClasses/IntelliJClasses.iml" filepath="$PROJECT_DIR$/IntelliJClasses/IntelliJClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDETJavaBatch10.iml" filepath="$PROJECT_DIR$/SDETJavaBatch10.iml" />
+    </modules>
+  </component>
+</project>
